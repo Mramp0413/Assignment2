@@ -1,0 +1,37 @@
+/* style.scss */
+
+@import 'vendor/_bootstrap.scss'; /* SASS IMPORTING FILE*/
+
+$bgColor:#ccc;
+$textColor:#363636; /* SASS STUFF */
+
+body {
+ background:$bgColor;  
+ color:$textColor;
+}
+
+
+h2{
+ font-weight:700;
+ text-transform: uppercase;
+}
+
+.container{
+ background:#fff;
+ padding: 0 30px 30px 30px;
+}
+
+.profile-img{
+ width:160px;
+ display:block;
+ margin:auto;
+}
+
+.contact-list{
+ list-style:none;   
+}
+
+
+.media-left{
+ width:1000px;
+} /* Media objects */
